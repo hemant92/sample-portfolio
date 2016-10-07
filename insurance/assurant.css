@@ -1,0 +1,32 @@
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("columbia.jpg");
+    background-size: cover;
+    background-position: position ;
+    height: 100vh;
+    position:relative;
+}
+
+
+.assurant{
+    font-family: 'Domine', serif;
+    font-size: medium;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+h1 + p:first-letter {
+    font-size: 2em;
+    line-height: 0;  /* The line-height must be adjusted to compensate for the increased font size, otherwise the leading for the overall line is disrupted. I find that any values below 0.4 work. */
+}
+
+h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #e74c3c;
+}
+
+
+
